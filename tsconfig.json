@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "outDir": "./dist",
+        "resolveJsonModule": true,
+
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "lib": ["esnext", "dom"], // Include necessary library definitions
+    "types": ["node", "express"], // Include type definitions for Node.js and Express
+    "sourceMap": true // Generate source maps for easier debugging
+  },
+  "include": ["src/**/*.ts"], // Include all .ts files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and the output directory
+}
