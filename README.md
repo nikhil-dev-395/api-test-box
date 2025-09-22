@@ -1,8 +1,5 @@
 
 
-[+] rename the details into home or other
-[+] made new details for videos
-
 
 endpoints
 
